@@ -9,7 +9,15 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-community/datetimepicker": "^6.7.1",
+    "@react-navigation/native": "^6.1.1",
+    "@react-navigation/stack": "^6.3.9",
+    "@tensorflow-models/coco-ssd": "^2.2.2",
+    "@tensorflow/tfjs": "^4.1.0",
+    "@tensorflow/tfjs-react-native": "^0.8.0",
     "expo": "~47.0.8",
+    "expo-camera": "^13.1.0",
+    "expo-sqlite": "^11.0.0",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
     "react-dom": "18.1.0",
