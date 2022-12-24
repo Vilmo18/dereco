@@ -15,7 +15,7 @@ export default function App() {
       ? { height: 1920, width: 1080 }
       : { height: 1920, width: 1080 };
   const handleCameraStream = (images: any) => {
-    const loop = async () => {
+    const loop = async () => { 
       const nextimageTensor = images.next().value;
     };
   };
